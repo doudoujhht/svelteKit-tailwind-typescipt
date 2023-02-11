@@ -1,17 +1,16 @@
 # create-svelte
 
-Everything you need to build a Svelte project, powered by [`create-svelte`](https://github.com/sveltejs/kit/tree/master/packages/create-svelte).
+Everything you need to start your project with svelteKit, TailwindCss, typescript and vite
 
-## Creating a project
+## Starting a project
 
-If you're seeing this, you've probably already done this step. Congrats!
+you need to create a project with this template
+after that
 
 ```bash
-# create a new project in the current directory
-npm create svelte@latest
+# install vite and all the dependencies for the project
+npm install
 
-# create a new project in my-app
-npm create svelte@latest my-app
 ```
 
 ## Developing
@@ -23,6 +22,9 @@ npm run dev
 
 # or start the server and open the app in a new browser tab
 npm run dev -- --open
+
+# or start the server and host it to access it with an another device in your network
+npm run dev -- --host
 ```
 
 ## Building
